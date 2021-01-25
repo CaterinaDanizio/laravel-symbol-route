@@ -1,1 +1,17 @@
 //
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: salmon;
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}

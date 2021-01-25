@@ -7,11 +7,90 @@
 body {
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: salmon;
+  background-color: gainsboro;
 }
 
 body .container {
   width: 100%;
   height: 100%;
+}
+
+body .container h1 {
+  color: beige;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+body .container header .menu {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+}
+
+body .container header .menu img {
+  height: 80px;
+}
+
+body .container header .menu li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+body .container header .jumbotron {
+  min-height: 500px;
+  background-image: url(https://www.artemedialab.it/wp-content/uploads/2019/04/immagini-sfondo-1-700x400.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body .container section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .container section p {
+  margin: 20px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+body .container section h5 {
+  padding-bottom: 20px;
+}
+
+body .container section li {
+  padding: 10px;
+}
+
+body .container section .main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+body .container section .main-content .text-block img {
+  height: 200px;
+  width: auto;
+}
+
+body .container footer {
+  color: beige;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+body .container footer .footer-link {
+  padding-top: 20px;
+}
+
+body .container footer .footer-link li {
+  padding: 5px;
+  list-style: none;
 }
 

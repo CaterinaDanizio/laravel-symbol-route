@@ -8,10 +8,90 @@
 body {
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: salmon;
+    background-color: gainsboro;
 
     .container {
         width: 100%;
         height: 100%;
+
+        h1 {
+                 color: beige;
+                 position: absolute;
+                 top: 50%;
+                 left: 20%;
+             }
+
+        header {
+
+            .menu {
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: beige;
+            
+            img {
+                height: 80px;
+            }
+            li {
+                list-style: none;
+                display: inline-block;
+                padding: 0 10px;
+            }
+          }
+         .jumbotron {
+             min-height: 500px;
+             background-image: url(https://www.artemedialab.it/wp-content/uploads/2019/04/immagini-sfondo-1-700x400.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             position: relative;    
+         } 
+        }
+      section {
+          text-align: center;
+          margin-top: 20px;
+
+          p {
+              margin: 20px;
+              line-height: 25px;
+              text-align: justify;
+          }
+
+          h5 {
+              padding-bottom: 20px;
+          }
+
+          li {
+              padding: 10px;
+          }
+
+          .main-content {
+              display: flex;
+              justify-content: space-around;
+              .text-block {
+                  img {
+                      height: 200px;
+                      width: auto;
+                  }    
+            }
+          }        
+       }
+
+      footer {
+          color: beige;
+          background-color: black;
+          display: flex;
+          justify-content: space-around;
+
+          .footer-link {
+              padding-top: 20px;
+
+              li {
+              padding: 5px;
+              list-style: none;
+           }
+        }     
+      }
     }
 }

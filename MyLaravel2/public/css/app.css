@@ -1,0 +1,12 @@
+body {
+  background-color: salmon;
+}
+
+body .green {
+  color: green;
+}
+
+body .red {
+  color: red;
+}
+

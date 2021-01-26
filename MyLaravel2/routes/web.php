@@ -20,6 +20,4 @@ Route::get('/', function () {
 
 Route::get('/pagamenti', 'MainController@getPagamenti');
 
-Route::get('/pagamentiPending', function () {
-    return view('pagamentiPending');
-});
+Route::get('/pagamentiPending', 'MainController@getPending');
